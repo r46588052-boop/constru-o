@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+ <head>
+  <base target="_self"/>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   LOJA DA CONSTRUÇÃO - Materiais de Construção em Bauru/SP
+  </title>
+  <meta content="Comércio varejista de materiais de construção em geral, tintas, ferramentas, ferragens, madeira, pisos, iluminação e artigos para o lar em Bauru/SP" name="description"/>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+  <script>
+   tailwind.config = {
+            theme: {
+                fontFamily: {
+                    sans: ['Inter', 'sans-serif'],
+                },
+                extend: {
+                    colors: {
+                        primary: "#1e3a8a",
+                        secondary: "#1e40af",
+                        accent: "#3b82f6",
+                        dark: "#1f2937",
+                        light: "#f9fafb"
+                    }
+                }
+            }
+        }
+  </script>
+  <style>
+   .hero-image {
+            background-image: linear-gradient(rgba(30, 58, 138, 0.7), rgba(30, 58, 138, 0.7)), url('https://picsum.photos/1600/600?random=1');
+        }
+  </style>
+  <script type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "LOJA DA CONSTRUÇÃO",
+  "image": "https://lojadaconstrucao.shop/logo.png",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Av. Nossa Senhora de Fátima, nº 20111",
+    "addressLocality": "Bauru",
+    "addressRegion": "SP",
+    "postalCode": "17017-337",
+    "addressCountry": "BR"
+  },
+  "url": "https://lojadaconstrucao.shop",
+  "telephone": "+5521959336002",
+  "email": "contato@lojadaconstrucao.shop",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "CNPJ",
+    "value": "29.906.686/0001-00"
+  }
+}
+  </script>
+ </head>
+ <body class="font-sans bg-gray-50">
+  <!-- Header -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+   <img alt="Logo da Loja da Construção" src="/logo.png" style="height: 50px; margin-bottom: 10px;"/>
+   <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-primary">
+     LOJA DA CONSTRUÇÃO
+    </h1>
+    <nav class="hidden md:block">
+     <ul class="flex space-x-8">
+      <li>
+       <a class="text-dark hover:text-accent font-medium transition-colors" href="#inicio">
+        Início
+       </a>
+      </li>
+      <li>
+       <a class="text-dark hover:text-accent font-medium transition-colors" href="#sobre">
+        Sobre Nós
+       </a>
+      </li>
+      <li>
+       <a class="text-dark hover:text-accent font-medium transition-colors" href="#servicos">
+        Serviços
+       </a>
+      </li>
+      <li>
+       <a class="text-dark hover:text-accent font-medium transition-colors" href="#contato">
+        Contato
+       </a>
+      </li>
+     </ul>
+    </nav>
+    <button class="md:hidden text-primary">
+     <svg class="h-6 w-6" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+      </path>
+     </svg>
+    </button>
+   </div>
+  </header>
+  <!-- Hero Banner -->
+  <section class="hero-image bg-cover bg-center text-white py-20 md:py-32" id="inicio">
+   <div class="container mx-auto px-4 text-center">
+    <h2 class="text-3xl md:text-5xl font-bold mb-6">
+     Tudo para sua obra em um só lugar
+    </h2>
+    <p class="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
+     Materiais de construção de qualidade com os melhores preços da região
+    </p>
+    <a class="bg-accent hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-lg transition-colors inline-block" href="#contato">
+     Fale Conosco
+    </a>
+   </div>
+  </section>
+  <!-- Sobre Nós -->
+  <section class="py-16 bg-white" id="sobre">
+   <div class="container mx-auto px-4">
+    <div class="max-w-4xl mx-auto text-center">
+     <h2 class="text-3xl font-bold text-dark mb-6">
+      Sobre Nós
+     </h2>
+     <p class="text-lg text-gray-700 mb-8">
+      A
+      <strong>
+       LOJA DA CONSTRUÇÃO COMERCIO ELETRONICO LTDA
+      </strong>
+      , atuando sob o nome fantasia
+      <strong>
+       LOJA DA CONSTRUÇÃO
+      </strong>
+      , é uma empresa especializada no comércio varejista de materiais de construção em geral, oferecendo produtos de qualidade para atender às necessidades de sua obra ou reforma.
+     </p>
+     <p class="text-lg text-gray-700">
+      Localizada em Bauru/SP, nos destacamos pelo atendimento personalizado, variedade de produtos e compromisso com a satisfação dos nossos clientes.
+     </p>
+    </div>
+   </div>
+  </section>
+  <!-- Serviços e Produtos -->
+  <section class="py-16 bg-light" id="servicos">
+   <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold text-dark mb-12 text-center">
+     Nossos Produtos e Serviços
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+     <!-- Produto 1 -->
+     <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+      <div class="bg-primary text-white p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
+       <svg class="h-6 w-6" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+        </path>
+       </svg>
+      </div>
+      <h3 class="text-xl font-semibold mb-3">
+       Materiais de Construção
+      </h3>
+      <p class="text-gray-600">
+       Cimento, tijolos, areia, brita e todos os insumos básicos para sua obra.
+      </p>
+     </div>
+     <!-- Produto 2 -->
+     <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+      <div class="bg-primary text-white p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
+       <svg class="h-6 w-6" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+        </path>
+       </svg>
+      </div>
+      <h3 class="text-xl font-semibold mb-3">
+       Tintas e Revestimentos
+      </h3>
+      <p class="text-gray-600">
+       Ampla variedade de tintas, texturas e revestimentos para paredes e pisos.
+      </p>
+     </div>
+     <!-- Produto 3 -->
+     <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+      <div class="bg-primary text-white p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
+       <svg class="h-6 w-6" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+        </path>
+       </svg>
+      </div>
+      <h3 class="text-xl font-semibold mb-3">
+       Ferramentas e Ferragens
+      </h3>
+      <p class="text-gray-600">
+       Tudo o que você precisa para realizar seus projetos e reparos com qualidade.
+      </p>
+     </div>
+     <!-- Produto 4 -->
+     <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+      <div class="bg-primary text-white p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
+       <svg class="h-6 w-6" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+        </path>
+       </svg>
+      </div>
+      <h3 class="text-xl font-semibold mb-3">
+       Madeiras e Pisos
+      </h3>
+      <p class="text-gray-600">
+       Madeiras tratadas, laminados e diversos tipos de pisos para todos os ambientes.
+      </p>
+     </div>
+     <!-- Produto 5 -->
+     <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+      <div class="bg-primary text-white p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
+       <svg class="h-6 w-6" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+        </path>
+       </svg>
+      </div>
+      <h3 class="text-xl font-semibold mb-3">
+       Iluminação
+      </h3>
+      <p class="text-gray-600">
+       Lâmpadas, luminárias e acessórios para iluminação residencial e comercial.
+      </p>
+     </div>
+     <!-- Produto 6 -->
+     <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+      <div class="bg-primary text-white p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
+       <svg class="h-6 w-6" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+        </path>
+       </svg>
+      </div>
+      <h3 class="text-xl font-semibold mb-3">
+       Utilidades Domésticas
+      </h3>
+      <p class="text-gray-600">
+       Artigos para cozinha, banheiro e organização da casa.
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Contato -->
+  <section class="py-16 bg-white" id="contato">
+   <div class="container mx-auto px-4">
+    <div class="max-w-4xl mx-auto">
+     <h2 class="text-3xl font-bold text-dark mb-8 text-center">
+      Entre em Contato
+     </h2>
+     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div>
+       <h3 class="text-xl font-semibold mb-4">
+        Informações de Contato
+       </h3>
+       <ul class="space-y-3">
+        <li class="flex items-start">
+         <svg class="h-5 w-5 text-primary mr-3 mt-1" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <path clip-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" fill-rule="evenodd">
+          </path>
+         </svg>
+         <span>
+          Av. Nossa Senhora de Fátima, nº 20111
+          <br/>
+          Jd. América, Bauru - SP
+          <br/>
+          CEP 17017-337
+         </span>
+        </li>
+        <li class="flex items-center">
+         <svg class="h-5 w-5 text-primary mr-3" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z">
+          </path>
+         </svg>
+         <span>
+          (21) 95933-6002
+         </span>
+        </li>
+        <li class="flex items-center">
+         <svg class="h-5 w-5 text-primary mr-3" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z">
+          </path>
+          <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z">
+          </path>
+         </svg>
+         <span>
+          contato@lojadaconstrucao.shop
+         </span>
+        </li>
+        <li class="flex items-center">
+         <svg class="h-5 w-5 text-primary mr-3" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <path clip-rule="evenodd" d="M10 2a8 8 0 100 16 8 8 0 000-16zm0 14a6 6 0 110-12 6 6 0 010 12z" fill-rule="evenodd">
+          </path>
+         </svg>
+         <span>
+          CNPJ: 29.906.686/0001-00
+         </span>
+        </li>
+       </ul>
+      </div>
+      <div>
+       <h3 class="text-xl font-semibold mb-4">
+        Envie uma Mensagem
+       </h3>
+       <form class="space-y-4">
+        <div>
+         <label class="block text-sm font-medium text-gray-700 mb-1" for="name">
+          Nome
+         </label>
+         <input class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary" id="name" type="text"/>
+        </div>
+        <div>
+         <label class="block text-sm font-medium text-gray-700 mb-1" for="email">
+          E-mail
+         </label>
+         <input class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary" id="email" type="email"/>
+        </div>
+        <div>
+         <label class="block text-sm font-medium text-gray-700 mb-1" for="phone">
+          Telefone
+         </label>
+         <input class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary" id="phone" type="tel"/>
+        </div>
+        <div>
+         <label class="block text-sm font-medium text-gray-700 mb-1" for="message">
+          Mensagem
+         </label>
+         <textarea class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary" id="message" rows="4"></textarea>
+        </div>
+        <button class="bg-primary hover:bg-secondary text-white font-bold py-2 px-6 rounded-md transition-colors" type="submit">
+         Enviar Mensagem
+        </button>
+       </form>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-8">
+   <div class="container mx-auto px-4">
+    <div class="flex flex-col md:flex-row justify-between items-center">
+     <div class="mb-4 md:mb-0">
+      <h3 class="text-xl font-bold mb-2">
+       LOJA DA CONSTRUÇÃO
+      </h3>
+      <p class="text-gray-300">
+       Comércio varejista de materiais de construção em geral
+      </p>
+     </div>
+     <div class="text-center md:text-right">
+      <p class="text-gray-300">
+       © 2023 LOJA DA CONSTRUÇÃO COMERCIO ELETRONICO LTDA
+      </p>
+      <p class="text-gray-400 text-sm">
+       Todos os direitos reservados
+      </p>
+     </div>
+    </div>
+   </div>
+  </footer>
+  <script>
+   // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Mobile menu toggle functionality would go here
+        // This is a placeholder for the actual implementation
+        const mobileMenuButton = document.querySelector('button.md\\:hidden');
+        const mobileMenu = document.querySelector('nav.hidden');
+        
+        if(mobileMenuButton && mobileMenu) {
+            mobileMenuButton.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+                mobileMenu.classList.toggle('block');
+            });
+        }
+  </script>
+ </body>
+</html>
